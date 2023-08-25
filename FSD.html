@@ -1,0 +1,984 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link>
+  </head>
+
+  <style>
+
+    body{
+    
+        font-size: 18px;
+        overflow-x: hidden;
+
+        /* background-color: black; */
+        /* background-color: darkolivegreen; */
+        /* background-color: rgb(20, 50, 50); */
+        /* color: white; */
+
+        /* border: solid 2px white; */
+        /* width: 1470px; */
+        /* background-color: rgb(247, 236, 222); */
+        /* box-shadow: 10px 5px 5px; */
+        /* background-image: url(Images/Home.jpeg); */
+        /* background-repeat: no-repeat; */
+        /* background-size: cover; */
+    }
+    .fsd
+    {
+        margin-top: 80px;
+        margin-left: 100px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .job1
+    {
+        font-size: 15px;
+        margin-left: 100px;
+    }
+    .learn
+    {
+        font-size: 30px;
+        margin-left: 100px;
+    }
+    .ds{
+        font-size: 45px;
+        margin-left: 100px;
+        color: rgb(12, 215, 215);
+        /* background-color: rgb(20, 50, 50); */
+
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    .Assured
+    {
+        font-size: 30px;
+        margin-left: 100px;
+    }
+    .opp
+    {
+        font-size: 30px;
+        margin-top:-5px;
+        margin-left: 100px;
+    }
+    .btn
+    {
+        height: 50px;
+        width: 200px;
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+    .months
+    {
+        margin-top: 90px;
+        /* border: solid 2px rgb(3, 177, 177); */
+        background-color: rgb(20, 50, 50);
+
+        height: 35px;
+        width: 600px;
+        text-align:center;
+        font-size: 22px;
+        border-radius: 10px;
+        /* background-color: rgb(3, 177, 177); */
+        color: white;
+        box-shadow: -2px -1px 3px 5px white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    .mon{
+            margin-top: 50px;
+            margin-left: 290px;
+    }
+    .Lh{
+            margin-top: 50px;
+            margin-left: 100px;
+    }
+    .Salary{
+            margin-top: 50px;
+            margin-left: -50px;
+            }
+           
+            .sp
+            {
+                margin-left: 120px;
+            }
+            .lp
+            {
+                margin-left: 80px;
+            }
+            .as
+            {
+                margin-left: 60px;
+            }
+            .hp
+            {
+                margin-left: -10px;
+            }
+            .nav-item
+            {
+              margin-top: -2px;
+              margin-left: 20px;
+            }
+            .Join
+            {
+              margin-left: 100px;
+              margin-top: 40px;
+              /* background-color:aqua; */
+              /* color: white; */
+              margin-right: 100px;
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .doc
+            {
+              margin-left: 100px;
+              margin-right: 250px;
+              margin-top: 20px;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .plac
+            {
+              font-weight: bold;
+              margin-left: 100px;
+              font-size: 18px;
+            }
+            .pg
+            {
+              margin-left: 100px;
+              font-size: 13px;
+            }
+            .car
+            {
+              font-weight: bold;
+              margin-left: 15px;
+              font-size: 18px;
+
+            }
+            .dcs
+            {
+              margin-left: 10px;
+              font-size: 13px;
+              margin-right: 150px;
+
+
+            }
+            .job
+            {
+              font-weight: bold;
+              margin-left: -17px;
+              font-size: 18px;
+            }
+            .jfc
+            {
+              margin-left: -20px;
+              font-size: 13px;
+              margin-right: 150px;
+
+            }
+            .live
+            {
+              margin-left: 100px;
+              font-size: 18px;
+              font-weight: bold;
+            }
+           .ll
+           {
+            margin-left: 100px;
+            font-size: 13px;
+            margin-right: 100px;
+           }
+           .code
+           {
+            margin-left: 10px;
+            font-size: 18px;
+            font-weight: bold;
+           }
+           .hcc
+           {
+            margin-right: 100px;
+            font-size: 13px;
+            margin-left: 10px;
+
+           }
+           .project
+           {  
+            font-weight: bold;
+            margin-right: 150px;
+            margin-left: -20px;
+            font-size: 18px;
+           }
+           .pp
+           {
+            margin-right: 150px;
+              margin-left: -20px;
+              font-size: 13px;
+           }
+           .Enrol
+           {
+            text-align: center;
+            margin-top: 0px;
+           }
+           .border
+           {
+            /* background-color: rgb(3, 177, 177); */
+            background-color: rgb(20, 50, 50);
+
+            width: 60%;
+            margin-left: 300px;
+            text-align:left;
+
+            margin-right: 50px;
+            height: 100px;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-radius: 50px;
+            /* box-shadow: 1px 10px 10px rgb(3, 177, 177); */
+            box-shadow:   10px 10px 10px rgb(20, 50, 50);
+            
+           }
+  </style>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <img src="Images/imarticusmoblogo.svg" width="160px">
+
+            <!-- <span class="navbar-toggler-icon"></span> -->
+          <!-- <div class="collapse navbar-collapse " id="navbarNav"> -->
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-black" aria-current="page" href="Imartiucs.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="About.html">About </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#">Contact Us</a>
+              </li>
+              <div class="what">
+                <img src="Images/whatsappicon.svg" height="40px" width="100px">
+              </div>
+              <!-- <img src="Images/logoImar.png" height="60px" width="180px" text> -->
+
+            
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="row">
+        <div class="col">
+            <h1 class="fsd">Full Stack Development</h1>
+            <h5 class="job1">Get Job-Ready By Learning Through Roubust Real-World Hands-on</h5>
+            <h1 class="learn">Learn</h1>
+            <h1 class="ds"><marquee>Data Structure & Algorithm | Java Programming | End-to-end Development...! </marquee></h1>
+            <h1 class="Assured">And Also Get 10 Assured Interview</h1>
+            <h1 class="opp">Opportunities</h1>
+            
+            <div class="btn1">
+                <button type="button" class="btn btn-outline-success">Download Brochure</button>
+                <button type="button" class="btn btn-outline-success">Apply Now</button>
+
+            </div>
+        </div>
+        <div class="col">
+            <h6 class="months">6 Months | Hybrid Learning - Live Online Training & Classroom</h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+            <h5 class="mon">6 Months</h5>
+        </div>
+        <div class="col">
+            <h5 class="Lh">450 Learning Hours</h5>
+        </div>
+        <div class="col">
+            <h5 class="Salary">3-6 LPA Assured Minimum Salary</h5>
+        </div>
+      </div>
+      <div class="border">
+      <div class="row">
+        <div class="col mt-4">
+            <h6 class="sp">1500+</h6>
+            <h6 class="sp">Students Placed</h6>
+        </div>
+        <div class="col mt-4">
+            <h6 class="lp">24 LPA</h6>
+            <h6 class="lp">Highest Salary</h6>
+        </div>
+        <div class="col mt-4">
+            <h6 class="as">80%</h6>
+            <h6 class="as">Average Salary</h6>
+        </div>
+        <div class="col mt-4">
+            <h6 class="hp">500+</h6>
+            <h6 class="hp">Hiring Partners</h6>
+        </div>
+      </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------ -->
+      <h3 class="Join">Join The Best Full Stack Developer Course</h3>
+      <h6 class="doc">The Full Stack Developer Pro course will teach you the subtleties of data structures and algorithms. This interview-assured 6-month program will prepare you for a successful career as a full-stack web developer by providing you with the technical knowledge of front-end and back-end programming. With 350 hours of rigorous instruction with a distinguished faculty and 100 hours of doubt-resolution, the program offers the most training hours in the industry.</h6>
+      <div class="row">
+        <div class="col">
+          
+            <h6 class="plac mt-4"><i class="display-6 bi bi-stack"></i> Placement Guarantee</h6>
+            <h6 class="pg">Get access to 500+ hiring partners and 10 interview guarantee with a minimum salary of 3-6 LPA or we will refund your fees.</h6>
+        </div>
+        <div class="col">
+            <h6 class="car mt-4"><i class="display-6 bi bi-puzzle"></i> Dedicated Career Services</h6>
+            <h6 class="dcs">Our career services include resume development, profile enhancement, interview preparation workshops and one-on-one career counselling to ensure you land the right job.</h6>
+        </div>
+        <div class="col">
+            <h6 class="job mt-4"><i class="display-6 bi bi-briefcase-fill"></i> Job-focused Curriculum</h6>
+            <h6 class="jfc">Start by building a strong foundation in data structures and algorithms and learn popular technologies like Java, Spring, MongoDB, JavaScript, React, Docker, and Jenkins and top the list of potential employers.</h6>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col">
+              <h6 class="live mt-4"><i class="display-6 bi bi-caret-right-square"></i> Live Learning</h6>
+              <h6 class="ll">Establish a DSA and full-stack development foundation through online live interactive courses while the teaching assistants will lead hands-on projects and practice sessions..</h6>
+          </div>
+          <div class="col">
+              <h6 class="code mt-4"><i class="display-6 bi bi-clipboard2-data"></i> Hackathon & Coding Challenges</h6>
+              <h6 class="hcc">Participate in Coding Hackathons, to tackle complex business problems and make your resume stand out.</h6>
+          </div>
+          <div class="col">
+              <h6 class="project mt-4"><i class="display-6 bi bi-folder-symlink-fill"></i> Project Portfolio</h6>
+              <h6 class="pp">Work on multiple projects and build a robust project 
+                portfolio to make your resume stand out in front of potential employers.</h6>
+          </div>
+          </div>
+
+          <div class="Enrol mt-4">
+            <button type="button" class="btn btn-outline-primary">Apply Now</button>
+          </div>
+<!-- ------------------------------------------------------------------------------------------------------- -->
+          <h2 style="margin-left: 200px; margin-top: 50px;"> Leading-Edge Curriculum</h2>
+          <h6 style="margin-left: 200px; margin-top: 5px;">Develop a strong foundation in data structures & algorithms (DSA) and learn popular tools like Java, Spring, MongoDB, JavaScript, React, Docker and Jenkins.
+
+
+          </h6>
+          
+          <div style="margin-left: 300px;" class="accordion" id="accordionExample">
+            <div class="accordion-item mt-5 w-75">
+              <!-- <h2 class="accordion-header"> -->
+                <button style="height: 35px;" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Data Structure & Algorithms
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h6><br>
+                    Gain knowledge of the foundational concepts in mathematics needed for programming. Write code that is effective and optimised. To hone your coding skills, learn several types of algorithms and practise on more than 100 DSA questions. Learn about the concept of competitive programming and get ready to take part in competitions. This module gives you a solid basis on which to build your career as a developer.<br>
+
+                    <span class="text-left"><br>What Will You Achieve?</br>
+                         Strong data structures and algorithms foundation<br>
+                          Coding skills with 100+ DSA questions</br>
+                          Competitive programming skills</span></br>
+                          <br>
+                          <h4>Topics :</h4>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button style="height: 30px;"class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  Introduction to Programming
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                 <h6>
+                  Programming Basics, Data Types and Code Flow <br>
+                  
+                  
+                  Input, Output and Exceptions<br>
+                  
+                  
+                  If statement, Loops and Code flow<br>
+                  
+                  
+                  Functions<br>
+                  
+                  
+                  Recursion<br>
+                  
+                  
+                  Time and space Complexity <br>
+                  
+                  
+                  Bit Manipulation<br>
+                  
+                  
+                  Strings<br>
+                 </h6> 
+                 
+            </div>
+          </div>         
+      </div><br>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button style="height: 30px;"class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            Data Structure
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+           <h6>
+            1-D Array<br>
+            
+            
+            2-D Matrix<br>
+            
+            
+            Array List and Linked List<br>
+            
+            
+            Stack<br>
+            
+            
+            Applications of Stack<br>
+            
+            
+            Queue<br>
+            
+            
+            Applications of Queue<br>
+            
+            
+            Tree (Traversals)<br>
+            
+            
+            Tree (Construction of tree from traversals, height of tree, mirror of tree)<br>
+            
+            
+            Tree (LCA, Diameter)<br>
+            
+            
+            BST<br>
+            
+            
+            Heaps<br>
+            
+            
+            Dynamic Programming<br>
+            
+            
+            Graph (BFS, DFS)<br>
+            
+            
+            Graph (Cycles in Graph)<br>
+            
+            
+            Graph (DFS, BFS on matrix)<br>
+            
+            
+            Graph ([Dijkstra Algorithm, Flood Fill Algorithm])<br>
+            
+            
+            Graph [Minimum Spanning Tree, Floyd Warshall, TopologicalSorting]
+           </h6> 
+      </div>
+    </div>         
+</div><br>
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button style="height: 30px;"class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+      Algorithms
+    </button>
+  </h2>
+  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+    <div class="accordion-body">
+     <h6>
+      
+Linear Search and Binary Search<br>
+
+
+Ternary Search<br>
+
+
+Two Pointers<br>
+
+
+Bit Manipulation<br>
+
+
+Simple Array Sorting and its implementation<br>
+
+
+Sorting using Divide and Conquer and implementation<br>
+
+
+Maths<br>
+
+
+Greedy
+     </h6> 
+</div>
+</div>         
+</div>
+                    
+                </div>
+              </div>
+              
+            <!-- </div> -->
+            
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button style="height: 40px;"class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Back-end Development, Databases & DevOps
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h6>
+                  Understand NodeJS basics, REPL, Node Module System, file systems, streams, events, HTTP servers, cluster, and working threads. Learn to build RESTful APIs using Express, create middleware, routing, rendering, and template engines. Integrate MongoDB, CRUD operations with Mongoose, data validation, modeling relationships, authentication, authorization, profanity filtering, post-moderation, caching, and performance optimization. Use Git for version control, handle repositories, branching, merging, workflows, and Git server administration. Understand NodeJS basics, REPL, Node Module System, file systems, streams, events, HTTP servers, cluster, and working threads. Learn to build RESTful APIs using Express, create middleware, routing, rendering, and template engines. Integrate MongoDB, CRUD operations with Mongoose, data validation, modeling relationships, authentication, authorization, profanity filtering, post-moderation, caching, and performance optimization. Use Git for version control, handle repositories, branching, merging, workflows, and Git server administration.
+                  <br><br>What Will You Achieve?<div>
+                  Gain proficiency in NodeJS, Express, MongoDB, and Git for building robust web applications
+                  Understand how to create RESTful APIs, implement authentication and authorization, and optimize performance. Learn to use Git for version control, manage repositories, and handle branching and merging workflows.</h6>
+
+                  <h6>Topics :</h6>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      
+                      <button style="height: 30px;"class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        NodeJS
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                      <div class="accordion-body">
+                            <h6>
+                              Getting started with NodeJS<br>
+                              
+                              
+                              Interactive node with REPL<br>
+                              
+                              
+                              Node Module System<br>
+                              
+                              
+                              File system & streams<br>
+                              
+                              
+                              Events<br>
+                              
+                              
+                              Web servers with HTTP module<br>
+                              
+                              
+                              Understanding Cluster & Working threads
+                            </h6>                 
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      
+                      <button style="height: 30px;"class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        ExpressJS
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                      <div class="accordion-body">
+                            <h6>
+                              Introduction to Express<br>
+                              
+                              
+                              Building Restful APIs using express<br>
+                              
+                              
+                              Building Restful APIs using express II<br>
+                              
+                              
+                              Express Middlewares<br>
+                              
+                              
+                              Express Middlewares continue<br>
+                              
+                              
+                              Routing
+                            </h6>                 
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      
+                      <button style="height: 30px;"class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        MongoDB
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                      <div class="accordion-body">
+                            <h6>
+                              Database Integration - MongoDB<br>
+                              
+                              
+                              CRUD with Mongoose & MongoDB I<br>
+                              
+                              
+                              CRUD with Mongoose & MongoDB II<br>
+                              
+                              
+                              Mongo Data Validation<br>
+                              
+                              
+                              Modelling Relationships<br>
+                              
+                              
+                              Autentication, Authorization I<br>
+                              
+                              
+                              Profanity Filtering and Post Moderation<br>
+                              
+                              
+                              Caching & Performance<br>
+                              
+                              
+                              Caching & Performance continue<br>
+                              
+                              
+                              Protecting express App</h6>                 
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      
+                      <button style="height: 30px;"class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        GIT
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                      <div class="accordion-body">
+                            <h6>
+                              Getting started with Git<br>
+                              
+                              
+                              Working with Git repositories<br>
+                              
+                              
+                              Branching and merging<br>
+                              
+                              
+                              Git workflows<br>
+                              
+                              
+                              Using Git in IDE<br>
+                              
+                              
+                              Git server adminstration
+                            </h6>                 
+                      </div>
+                    </div>
+                  </div>
+    
+                </div>
+                </div>
+              </div>
+              
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button style="height: 40px;"class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Front-end Development
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                 <h6><br>
+                  Understand user experience (UX) and user interface (UI). Create captivating application interfaces using JavaScript, HTML, CSS, and Bootstrap. Utilise the React framework to create UI features that are efficient and complicated. Create end-to-end applications by combining your front-end and back-end expertise.<br><>What Will You Achieve? Learn JavaScript to build exciting UI Develop complex and efficient UIs with React              
+                  Integrate front-end and back-end skills to create a complete application</>
+
+                  <h6>Topics :</h6>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      
+                      <button style="height: 30px;"class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        HTML
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                      <div class="accordion-body">
+                            <h6>
+                              Introduction To Web Development<br>How Web Applications Work<br>
+                            An introduction to HTML and CSS<br>Tools for Web Development<br>
+                            How to View Deployed Web Pages <br>Five Critical Web Development Issues<br>
+                            The HTML syntax, Images, Basic Skills for Working with Images<br>
+                            Advanced Skills for Working with Images<br>Related Skills for Working with Images, Forms, How to Use<br>Forms and Controls, Other Skills for Working with Forms<br>
+                            How to Use the HTML5 Features for Data Validation,
+                            <p> How to Use the HTML5 Controls<h6>
+                            A Web Page that Uses HTML5 Data Validation
+                            </h6>                 
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button style="height: 30px;"class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        CSS
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                      <div class="accordion-body">
+                       <h6>
+                              Using CSS to Format the Elements of a Web Page<br>
+                              An introduction to CSS<br>Measurements and Colours, Selectors, Cascading Style Sheets<br>How to Work with Text<br>A Web Page that Uses External Style Sheets<br>Introduction to Media Queries<br>Creating applications with Mobile-first Approach<br>Difference between Desktop-first vs. Mobile-first</p>
+                       </h6> 
+                  </div>                  
+              </div>         
+            </div><br>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button style="height: 30px;"class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  Bootstrap
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                 <h6>
+                  Creating Your First Web Page with Bootstrap<br>Including Bootstrap's Files via CDN, Bootstrap Grid System,<br>
+                  Creating Fixed, Fluid Layout with Bootstrap<br>              
+                  What is Responsive Web Design or Layout?<div>                
+                  Bootstrap Typography, Tables, Lists, Forms, Input Groups, Buttons, Images, NavBar etc<br>                 
+                  Creating a form using Bootstrap<br>               
+                  Creating a Static Site with Bootstrap
+                 </h6> 
+            </div>
+          </div>         
+      </div><br>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button style="height: 30px;"class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            JavaScript
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+           <h6>
+            Introduction to JavaScript Language, Using Script Tag, Inserting<br>
+            
+            
+            Java Script into Tags, Linking Java Script from Separate Files,<br>
+            
+            
+            JavaScript Expression and Operators, Defining and Naming<br>
+            
+            
+            Variables, Data Types, Expression, Returning Values from Functions<br>
+            
+            
+            Function: Advanced Concepts<br>
+            
+            
+            Function as Data, Anonymous Function, Callbacks, Self-invoking<br>
+            
+            
+            Function, Inner (Private) Functions, Functions that Return Functions<br>
+            
+            
+            Function: Rewriting itself, Variable Scopes, Function Level, No Block Level, Global Level<br>
+            
+            
+            What Are Objects?<br>
+            
+            
+            Objects and the Dot Syntax, Creating an Object with a Constructor,<br>
+            
+Properties of the Object, Methods of the Object<br>
+
+
+Introduction to ES6 Features
+           </h6> 
+      </div>
+    </div>         
+</div><br>
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button style="height: 30px;"class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+      JQuery (Light)
+    </button>
+  </h2>
+  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+    <div class="accordion-body">
+     <h6>
+        jQuery Introduction<br>
+
+
+- Install and Use jQuery Library<br>
+
+
+- Un-Obstructive JavaScript<br>
+
+
+- First jQuery Example<br>
+
+
+- jQuery Syntax<br>
+
+
+- Basic Selectors, Filters
+     </h6> 
+</div>
+</div>         
+</div><br>
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button style="height: 30px;"class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+      ReactJS
+    </button>
+  </h2>
+  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+    <div class="accordion-body">
+     <h6>
+      ReactJS Fundamentals<br>
+
+
+-Introduction to ReactJS, React and SPA<br>
+
+
+The Create-react-app CLI, Project Structure, React Introduction,View Technology<br>
+
+
+-React and SPA, The Create-react-app CLI, Project Structure,<br>
+
+
+Understanding What React Is, What Problem React Solves<br>
+
+
+First React Project, Code Formatter Setup, Building Static Site<br>
+
+
+Using React, JSX, Introduction, States and Properties, Stateless<br>
+
+
+Components, Stateful Components, Styling Approach in React<br>
+
+
+Component Lifecycle Events, Event Categories, Event Definition,<br>
+
+
+Mounting and Unmounting Events, Components and Props, State<br>
+
+
+and Lifecycle, Handling Events<br>
+
+
+useState, useEffect, useRef<br>
+
+
+Working with Hooks Example<br>
+
+
+Fetching Endpoint with Hook<br>
+
+
+Working with Lazy Initialisation with Hooks<br>
+
+
+Introduction to useContext<br>
+
+
+Redux for State Management, Introduction to Redux, Basic<br>
+
+
+Building Blocks, Store, Actions, Action Types and Action Creators,<br>
+
+
+Dispatch Mechanism, Vanilla Redux for Better Understanding,<br>
+
+
+Redux with ReactJS, The Application Flow, Choosing the Right<br>
+
+
+Model for Store, Implementing Redux for a Basic Application<br>
+
+
+Introduction to React Router<br>
+
+
+Route Configuration – Link, Navigate, Route, Router
+     </h6> 
+</div>
+</div>
+
+  
+</div><br>
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button style="height: 30px;"class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+      Cloud-AWS
+    </button>
+  </h2>
+  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+    <div class="accordion-body">
+     <h6>
+      Creating AWS Account, Understanding ec2 Instance<div>
+      
+      
+      - Deploying Spring boot Application with Containerisation<div>
+      
+      
+      Introduction to Amazon Simple Storage Service (S3)<br>
+      
+      
+      - S3 Regions, Buckets and Objects<br>
+      
+      
+      Create Bucket in S3, Upload - Make Public - Rename - Delete File<br>
+      
+      
+      in S3, Delete and Restore Files in S3<br>
+      
+      
+      Testing : JUNIT, JEST
+     </h6> 
+
+     
+</div>
+</div>    
+</div>
+</div>
+</div>
+</div>
+</div>
+
+      <div class="row mt-5">
+        <div class="col">
+          <h1>Program Fee</h1>
+          <h1>Rs. 1,19,000</h1>
+          <h1>(Inclusiv of All Taxes)</h1>
+
+
+        </div>
+        <div class="col">
+          <h6>Instalments</h6>          <h6>EMI Options</h6>
+
+        </div>
+      </div>
+
+
+      <footer2 class="sticky-bottom bg-white container-fluid d-flex align-items-center justify-content-center">
+        <div class="d-flex justify-content-center" style="width:232px; height: 50px;">
+          
+          <button style=" background-color: white; border-radius: 10px; border:1px solid black"><a href="" style="text-decoration: none;"><p style=" color:#3C4852; font-size:18px; padding: 10px 10px 0px 10px;">
+            <img src="Images/callback.svg" alt="" height="20px" width="20px">  Request a Callback</p></a> </button>
+        </div>
+      
+        <div class="d-flex" style="width:232px; height: 50px;">
+          
+          <button style=" background-color:#4CAF50;  border-radius: 10px; border:1px solid #035206"><a href="" style="text-decoration: none;""><p style="color:white; font-size:18px;  padding: 10px 10px 0px 10px; ">
+            <img src="Images/heyyyyyyy.svg" alt="" height="15px" width="20px">  Say Hi! on Whatsapp</p></a> </button>
+        </div>
+          </footer2>
+
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
